@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>CV - Yahyobek Madirimov</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             background: #f4f6f8;
             margin: 0;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #374151;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
         }
 
         .container {
@@ -19,10 +40,6 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
-        h1 {
-            color: #1e3a8a;
-        }
-
         .info {
             background: #eef2ff;
             padding: 10px;
@@ -30,11 +47,11 @@
             margin: 15px 0;
         }
 
-        .section {
+        section {
             margin-top: 20px;
         }
 
-        .section h2 {
+        section h2 {
             background: #1e3a8a;
             color: white;
             padding: 8px;
@@ -72,13 +89,31 @@
             background: #1e3a8a;
             color: white;
         }
+
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
     </style>
 </head>
+
 <body>
 
-<div class="container">
+<header>
     <h1>YAHYOBEK MADIRIMOV</h1>
     <p>17-vuotias opiskelija</p>
+</header>
+
+<nav>
+    <a href="index.html">CV</a> |
+    <a href="work.html">Työkokemus</a>
+</nav>
+
+<main>
+<div class="container">
 
     <div class="info">
         <p><strong>Sähköposti:</strong> yahyobekmadirimov@gmail.com</p>
@@ -86,41 +121,36 @@
         <p><strong>Kaupunki:</strong> Turku</p>
     </div>
 
-    <div class="section">
+    <section>
         <h2>Profiili</h2>
         <p>
-            Olen motivoitunut ja vastuullinen opiskelija, joka oppii nopeasti uusia asioita. 
-            Työskentelen hyvin tiimissä ja olen kiinnostunut asiakaspalvelutyöstä. 
+            Olen motivoitunut ja vastuullinen opiskelija, joka oppii nopeasti uusia asioita.
+            Työskentelen hyvin tiimissä ja olen kiinnostunut asiakaspalvelutyöstä.
             Etsin mahdollisuutta saada ensimmäinen työkokemus.
         </p>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
         <h2>Koulutus</h2>
+
         <table>
             <tr>
                 <th>Oppilaitos</th>
                 <th>Koulutus</th>
                 <th>Vuosi</th>
             </tr>
+
             <tr>
                 <td>Turun ammatti-instituutti</td>
                 <td>Ammatillinen koulutus</td>
                 <td>2025 – nykyinen</td>
             </tr>
         </table>
-    </div>
+    </section>
 
-    <div class="section">
-        <h2>Työkokemus</h2>
-        <p>
-            Minulla ei ole vielä virallista työkokemusta, mutta olen osallistunut kouluprojekteihin 
-            ja oppinut työskentelemään ryhmässä. Olen innokas oppimaan uusia taitoja.
-        </p>
-    </div>
-
-    <div class="section">
+    <section>
         <h2>Taidot</h2>
+
         <div class="skills">
             <span>Tiimityö</span>
             <span>Nopea oppiminen</span>
@@ -128,27 +158,34 @@
             <span>Microsoft Word</span>
             <span>Microsoft Excel</span>
         </div>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
         <h2>Kielitaito</h2>
+
         <ul>
             <li>Uzbekki – äidinkieli</li>
             <li>Suomi – keskitaso</li>
             <li>Englanti – perustaso</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
         <h2>Kiinnostuksen kohteet</h2>
+
         <ul>
             <li>Lukeminen</li>
             <li>Musiikin kuuntelu</li>
             <li>Uusien asioiden oppiminen</li>
         </ul>
-    </div>
+    </section>
 
 </div>
+</main>
+
+<footer>
+    <p>© 2026 Yahyobek Madirimov</p>
+</footer>
 
 </body>
 </html>
